@@ -1,0 +1,97 @@
+<html>
+    <title>
+        Grid page
+    </title>
+    <head></head>
+    <style>
+      .parent{
+        display: grid;
+        grid-template-columns: 32% 32% 32% ;
+        grid-template-rows: 200px 200px 200px;
+        gap: 20px;
+        }
+      .child{
+        border: 2px solid rgb(151, 139, 139);
+      }
+      .c1{
+        background-image: url(doom.avif);
+        background-size: cover;
+      }
+      .c2{
+        background-image: url(thor.webp);
+        background-size: cover;
+      }
+      .c3{
+        background-image: url(doom3.jpg);
+        background-size: cover;
+      }
+      .c4{
+        background-image: url(stone.gif);
+        background-size: cover;
+      }
+      .c5{
+        background-image: url(thanos.gif);
+        background-size: cover;
+      }
+      .c6{
+        background-image: url(power.gif);
+        background-size: cover;
+      }
+      .c7{
+        background-image: url(spiderman1.jpg);
+        background-size: cover;
+      }
+      .c8{
+        background-image: url(spiderman2.avif);
+        background-size: cover;
+      }
+      .c9{
+        background-image: url(car.webp);
+        background-size: cover;
+      }
+      .c1:hover{
+        box-shadow: 0px 0px 5px 5px rgb(75, 165, 1);
+      }
+      .c2:hover{
+        box-shadow: 0px 0px 5px 5px rgb(14, 11, 11);
+      }
+      .c3:hover{
+        box-shadow: 0px 0px 5px 5px rgb(31, 178, 204);
+      }
+      .c4:hover{
+        box-shadow: 0px 0px 5px 5px rgb(236, 203, 15);
+      }
+      .c5:hover{
+        box-shadow: 0px 0px 5px 5px rgb(233, 14, 14);
+      }
+      .c6:hover{
+        box-shadow: 0px 0px 5px 5px rgb(11, 42, 145);
+      }
+      .c7:hover{
+        box-shadow: 0px 0px 5px 5px rgb(9, 23, 148);
+      }
+      .c8:hover{
+        box-shadow: 0px 0px 5px 5px rgb(17, 124, 151);
+      }
+      .c9:hover{
+        box-shadow: 0px 0px 5px 5px rgba(219, 201, 32, 0.918);
+      }
+      h1{
+        color: red;
+      }
+    </style>
+    <body>
+        <h1>MARVEL</h1>
+        <div class="parent">
+            <div class="child c1"></div>
+            <div class="child c2"></div>
+            <div class="child c3"></div>
+            <div class="child c4"></div>
+            <div class="child c5"></div>
+            <div class="child c6"></div>
+            <div class="child c7"></div>
+            <div class="child c8"></div>
+            <div class="child c9"></div>
+        </div>
+    </body>
+</html>
